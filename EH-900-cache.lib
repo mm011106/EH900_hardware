@@ -166,6 +166,9 @@ F0 "C" 10 70 50 H V L CNN
 F1 "Device_CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "ALUMI/POLYMER/TANTAL/EDL" 0 0 50 H I C CNN "Material"
+F5 "SMD/DIP" 0 0 50 H I C CNN "Soldering"
+F6 "V" 290 -160 50 H V C CNN "Vr"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -1382,7 +1385,7 @@ ENDDEF
 #
 # power_GNDD
 #
-DEF power_GNDD #PWR 0 0 Y Y 1 F P
+DEF power_GNDD #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "power_GNDD" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
