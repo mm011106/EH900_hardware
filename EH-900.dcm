@@ -1,0 +1,153 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC125FT
+D Quad buffer 3-State outputs
+K CMOS buffer 3State
+$ENDCMP
+#
+$CMP 74VHC125FT
+D Quad buffer 3-State outputs
+K CMOS buffer 3State
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=14952&prodName=74VHC125FT
+$ENDCMP
+#
+$CMP A3AA-90K1-00EY
+D Push button switch with LED
+K switch normally-open pushbutton push-button LED
+F ~
+$ENDCMP
+#
+$CMP AE-MYMGK00506ERSR-5V0
+D DC/DC Switching Regulator, Power Module, 3.3V-5V/1A, Bellnix
+K DC/DC, Switching Regulator, 1A, Bellnix, BSA24-3.3S1R2
+F ~
+$ENDCMP
+#
+$CMP AE-USB2.0-TYPE-C
+D Akizuki USB-C Breakout Board
+K USB-C PD Akizuki
+F https://akizukidenshi.com/catalog/g/gK-13080/
+$ENDCMP
+#
+$CMP BSA24-3.3S1R2-D
+D DC/DC Switching Regulator, Power Module, 3.3V-5V/1A, Bellnix
+K DC/DC, Switching Regulator, 1A, Bellnix, BSA24-3.3S1R2
+F ~
+$ENDCMP
+#
+$CMP BindingPost
+D Generic Binding post
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CommonModeChork_1423
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP CrimpTerminal_Ring
+D Generic Crimp terminal
+K screw terminal crimp
+F ~
+$ENDCMP
+#
+$CMP DAC80501ZDGS
+F https://www.ti.com/product/ja-jp/DAC80501
+$ENDCMP
+#
+$CMP DF11-4DP-2DSA
+D DF11 4Pin STRAIGHT
+$ENDCMP
+#
+$CMP DF11-4DS-2C
+D DF11 4Pin Socket Crimp
+F https://www.hirose.com/ja/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=ja&documentid=D31688_ja
+$ENDCMP
+#
+$CMP ER03-R5F
+D TAJIMI ER03 Socket - Receptacle(Balkhead)
+K connector
+F ~
+$ENDCMP
+#
+$CMP GNDHV
+D Power symbol creates a global label with name "GNDHV" , HV signal ground
+K power-flag
+$ENDCMP
+#
+$CMP LT3922
+D CC mode DCDC conv
+K DCDC LED driver
+$ENDCMP
+#
+$CMP LTC3111
+D Strawberry Linux LTC3111 DCDC module
+K DCDC LTC3111
+$ENDCMP
+#
+$CMP LTC6102CMS8
+F https://www.analog.com/media/jp/technical-documentation/data-sheets/j6102fe.pdf
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Thick_1005_Pban
+D Resistor
+K R res resistor thick
+F ~
+$ENDCMP
+#
+$CMP R_Thick_1608_Pban
+D Resistor
+K R res resistor thick
+F ~
+$ENDCMP
+#
+$CMP SKRPACE010
+D Push button switch, tact, SMD, 4pads
+K switch normally-open pushbutton push-button tact
+F https://tech.alpsalpine.com/prod/j/html/tact/surfacemount/skrp/skrpace010.html
+$ENDCMP
+#
+$CMP SW_DPDT
+D dual pole double throw
+K switch dual-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP Sparkfun-DEV15801
+D Sparkfun USB-C PD Breakout Bord/Output only
+K USB-C PD Sprkfun
+$ENDCMP
+#
+$CMP TPS79918DDC
+D LDO 200mA Vin=6Vmax Vout=1.8V Marking="AWV"
+K LDO 200mA 1.8V
+F https://www.ti.com/document-viewer/TPS799/datasheet
+$ENDCMP
+#
+$CMP TPS79933DDC
+D LDO 200mA Vin=6Vmax Vout=3.3V Marking="AXX"
+K LDO 200mA 3.3V
+F https://www.ti.com/document-viewer/TPS799/datasheet
+$ENDCMP
+#
+$CMP TPS799xxDDC
+D LDO 200mA Vin=6Vmax
+K LDO 200mA
+F https://www.ti.com/document-viewer/TPS799/datasheet
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D_Schottky_x2_Serial_AKC
+D Dual Schottky diode, anode/cathode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP OPA2344EA
+D Precision, 1MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, MSOP-8
+K dual opamp
+F https://www.ti.com/lit/ds/symlink/opa2344.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS79918DDC
+D LDO 200mA Vin=6Vmax Vout=1.8V
+K LDO 200mA 1.8V
+F https://www.ti.com/document-viewer/TPS799/datasheet
+$ENDCMP
+#
+$CMP TPS79933DDC
+D LDO 200mA Vin=6Vmax Vout=3.3V 
+K LDO 200mA 3.3V
+F https://www.ti.com/document-viewer/TPS799/datasheet
+$ENDCMP
+#
+$CMP TPS799xxDDC
+D LDO 200mA Vin=6Vmax
+K LDO 200mA
+F https://www.ti.com/document-viewer/TPS799/datasheet
+$ENDCMP
+#
+#End Doc Library
