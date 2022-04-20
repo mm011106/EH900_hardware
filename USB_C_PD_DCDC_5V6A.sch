@@ -860,7 +860,7 @@ F 3 "" H 3450 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EH-900-rescue:OKL-T_3-W12N-C-SamacSys_Parts U302
+L SamacSys_Parts:OKL-T_3-W12N-C U302
 U 1 1 624770BC
 P 12350 2600
 F 0 "U302" H 13575 2865 50  0000 C CNN
