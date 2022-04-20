@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6102CMS8
+F https://www.analog.com/media/jp/technical-documentation/data-sheets/j6102fe.pdf
+$ENDCMP
+#
+#End Doc Library

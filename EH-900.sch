@@ -55,14 +55,14 @@ F 4 "MOLEX Mini-SPOX 2.5mm pitch" H 9800 3700 50  0001 C CNN "MFG"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J105
+L Connector:Conn_01x06_Female J105
 U 1 1 61731BB0
-P 5100 3550
-F 0 "J105" H 4950 3250 50  0000 L CNN
+P 5100 3650
+F 0 "J105" H 4900 3250 50  0000 L CNN
 F 1 "DF11-4DS-2C" H 4900 3150 50  0000 L CNN
-F 2 "" H 5100 3550 50  0001 C CNN
-F 3 "~" H 5100 3550 50  0001 C CNN
-	1    5100 3550
+F 2 "" H 5100 3650 50  0001 C CNN
+F 3 "~" H 5100 3650 50  0001 C CNN
+	1    5100 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -151,13 +151,13 @@ $EndComp
 $Comp
 L EH-900:SW_DPDT SW101
 U 1 1 61756DB9
-P 3350 5100
-F 0 "SW101" H 3350 5585 50  0000 C CNN
-F 1 "CW-T12KKS1" H 3250 5500 50  0000 C CNN
-F 2 "" H 3350 5300 50  0001 C CNN
-F 3 "https://www.nkkswitches.co.jp/product/detailed/CW-T12KKS1.html" H 3350 5300 50  0001 C CNN
-	1    3350 5100
-	1    0    0    -1  
+P 3850 4850
+F 0 "SW101" H 3850 5335 50  0000 C CNN
+F 1 "CW-T12KKS1" H 3750 5250 50  0000 C CNN
+F 2 "" H 3850 5050 50  0001 C CNN
+F 3 "https://www.nkkswitches.co.jp/product/detailed/CW-T12KKS1.html" H 3850 5050 50  0001 C CNN
+	1    3850 4850
+	-1   0    0    -1  
 $EndComp
 Text Notes 11350 3800 0    100  ~ 0
 Sensor
@@ -178,17 +178,6 @@ Text Notes 11400 5150 0    100  ~ 0
 Vmon
 Text Notes 11400 6050 0    100  ~ 0
 FG\n
-$Comp
-L Connector:Conn_01x04_Female J101
-U 1 1 6175FD05
-P 2500 5000
-F 0 "J101" H 2400 4700 50  0000 C CNN
-F 1 "DF11-4DS-2C" H 2650 4600 50  0000 C CNN
-F 2 "" H 2500 5000 50  0001 C CNN
-F 3 "~" H 2500 5000 50  0001 C CNN
-	1    2500 5000
-	-1   0    0    -1  
-$EndComp
 $Comp
 L EH-900:ER03-R5F J110
 U 1 1 6176F25D
@@ -262,22 +251,18 @@ Wire Wire Line
 Wire Wire Line
 	10900 6000 10100 6000
 Wire Wire Line
-	3550 4800 3750 4800
+	3650 4550 3450 4550
 Wire Wire Line
-	3750 4800 3750 5150
+	3450 4550 3450 4900
 Wire Wire Line
-	3750 5150 2950 5150
+	3450 4900 4250 4900
 Wire Wire Line
-	2950 5150 2950 5000
-Wire Wire Line
-	2950 5000 2700 5000
-Wire Wire Line
-	2700 4900 3150 4900
-Text Notes 3850 5000 0    100  ~ 0
+	4250 4900 4250 4750
+Text Notes 3350 4750 2    100  ~ 0
 POWER SW
-Text Notes 3550 4800 0    50   ~ 10
+Text Notes 3650 4550 2    50   ~ 10
 ON\n
-Text Notes 3550 5100 0    50   ~ 10
+Text Notes 3650 4850 2    50   ~ 10
 OFF\n
 Wire Wire Line
 	7800 5550 8000 5550
@@ -372,10 +357,10 @@ Text Notes 7800 3900 0    50   ~ 0
 I2C_SCL
 Text Notes 7800 4100 0    50   ~ 0
 I2C_SDA\n
-Text Notes 2250 5050 0    50   ~ 0
+Text Notes 5150 4000 0    50   ~ 0
 GND
-Text Notes 2250 4950 0    50   ~ 0
-GATE
+Text Notes 5150 3900 0    50   ~ 0
+ON/OFF\n
 Wire Wire Line
 	10850 6900 6450 6900
 Wire Wire Line
@@ -491,11 +476,11 @@ Wire Wire Line
 	10600 3950 10600 4250
 Text Notes 10250 6150 0    50   ~ 0
 UL1015 AWG24
-Text Notes 2900 5300 0    50   ~ 0
+Text Notes 4300 5050 2    50   ~ 0
 UL1571 AWG28
-Text Notes 2950 5150 0    50   ~ 0
+Text Notes 4250 4900 2    50   ~ 0
 [WHT]
-Text Notes 2950 4900 0    50   ~ 0
+Text Notes 4250 4650 2    50   ~ 0
 [YEL]
 Text Notes 10850 3300 0    50   ~ 0
 heatshrink: F(Z) 2X0.2(BLK)
@@ -507,8 +492,20 @@ Text Notes 10750 6300 0    50   ~ 0
 heatshrink: F(Z) 2.5X0.25(BLK)
 Text Notes 7400 6000 0    50   ~ 0
 heatshrink: F(Z) 2.5X0.25(BLK)
-Text Notes 3000 5550 0    50   ~ 0
+Text Notes 4800 5300 2    50   ~ 0
 heatshrink: F(Z) 2.5X0.25(BLK)
 Text Notes 5850 11050 0    79   ~ 0
 01 : 2022/02/06\n       Revised: foot pattern of ICs and Caps, parts size \n       Fixed: Pin assign error on DAC80501\n\n
+Wire Wire Line
+	4900 3850 4750 3850
+Wire Wire Line
+	4750 3850 4750 4650
+Wire Wire Line
+	4050 4650 4750 4650
+Wire Wire Line
+	4900 3950 4850 3950
+Wire Wire Line
+	4850 3950 4850 4750
+Wire Wire Line
+	4250 4750 4850 4750
 $EndSCHEMATC
