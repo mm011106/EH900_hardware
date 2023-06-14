@@ -1,4 +1,4 @@
-update=Tuesday, 19 April 2022 at 15:53:49
+update=Thursday, 08 June 2023 at 09:25:17
 version=1
 last_client=kicad
 [general]
@@ -269,7 +269,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/Users/masakazumiyamoto/Box/KiCAD/ET-SchSheetFormat.kicad_wks
+PageLayoutDescrFile=/Users/masakazumiyamoto/Library/CloudStorage/OneDrive-学校法人　金沢工業大学/CAD/KiCAD/ET-SchSheetFormat.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

@@ -47,6 +47,10 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP CYPD3177-24LQXQ
+F https://www.mouser.jp/datasheet/2/100/CYPR_S_A0012903526_1-2541381.pdf
+$ENDCMP
+#
 $CMP CommonModeChork_1423
 D Coupled inductor with ferrite core
 K inductor choke coil reactor magnetic coupled

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ET_OPAMP_STD:OPA2344EA U?
+L EH-900-rescue:OPA2344EA-ET_OPAMP_STD U?
 U 1 1 60352A4D
 P 5650 6350
 AR Path="/60352A4D" Ref="U?"  Part="1" 
@@ -28,7 +28,7 @@ F 4 "C44" H 5650 6350 50  0001 C CNN "Marking"
 	1    0    0    1   
 $EndComp
 $Comp
-L ET_OPAMP_STD:OPA2344EA U?
+L EH-900-rescue:OPA2344EA-ET_OPAMP_STD U?
 U 2 1 60352A53
 P 5650 7450
 AR Path="/60352A53" Ref="U?"  Part="2" 
@@ -43,7 +43,7 @@ F 5 "C44" H 5650 7450 50  0001 C CNN "Marking"
 	1    0    0    1   
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352A59
 P 6250 6350
 AR Path="/60352A59" Ref="R?"  Part="1" 
@@ -59,13 +59,13 @@ F 6 "SMD" H 6250 6350 50  0001 C CNN "Soldering"
 	0    1    1    0   
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352A5F
 P 3950 7950
 AR Path="/60352A5F" Ref="R?"  Part="1" 
 AR Path="/60339FCD/60352A5F" Ref="R404"  Part="1" 
-F 0 "R404" H 3880 7904 50  0000 R CNN
-F 1 "10k" H 3880 7995 50  0000 R CNN
+F 0 "R404" V 3850 7950 50  0000 R CNN
+F 1 "100k/THICK" V 3750 8100 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3880 7950 50  0001 C CNN
 F 3 "~" H 3950 7950 50  0001 C CNN
 F 4 "THIN" H 3950 7950 50  0001 C CNN "Material"
@@ -75,13 +75,13 @@ F 6 "SMD" H 3950 7950 50  0001 C CNN "Soldering"
 	-1   0    0    1   
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352A65
 P 3100 7950
 AR Path="/60352A65" Ref="R?"  Part="1" 
 AR Path="/60339FCD/60352A65" Ref="R402"  Part="1" 
-F 0 "R402" H 3170 7996 50  0000 L CNN
-F 1 "10k" H 3170 7905 50  0000 L CNN
+F 0 "R402" V 3200 7950 50  0000 L CNN
+F 1 "100k/THICK" V 3300 7800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3030 7950 50  0001 C CNN
 F 3 "~" H 3100 7950 50  0001 C CNN
 F 4 "THIN" H 3100 7950 50  0001 C CNN "Material"
@@ -91,7 +91,7 @@ F 6 "SMD" H 3100 7950 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352A6B
 P 3950 6200
 AR Path="/60352A6B" Ref="R?"  Part="1" 
@@ -107,7 +107,7 @@ F 6 "SMD" H 3950 6200 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352A71
 P 3100 6200
 AR Path="/60352A71" Ref="R?"  Part="1" 
@@ -178,7 +178,7 @@ Wire Wire Line
 Connection ~ 6000 6350
 Connection ~ 6000 7450
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352A96
 P 6500 6650
 AR Path="/60352A96" Ref="R?"  Part="1" 
@@ -194,7 +194,7 @@ F 6 "SMD" H 6500 6650 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352A9C
 P 6450 7950
 AR Path="/60352A9C" Ref="R?"  Part="1" 
@@ -212,7 +212,7 @@ $EndComp
 Wire Wire Line
 	6000 7450 6100 7450
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60352AA3
 P 6250 7450
 AR Path="/60352AA3" Ref="R?"  Part="1" 
@@ -338,7 +338,7 @@ F 3 "" H 4550 6900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EH-900:C C?
+L EH-900-rescue:C-EH-900 C?
 U 1 1 60352ADD
 P 2700 7950
 AR Path="/60352ADD" Ref="C?"  Part="1" 
@@ -355,7 +355,7 @@ F 7 "50V" H 2700 7950 50  0001 C CNN "Vr"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:C C?
+L EH-900-rescue:C-EH-900 C?
 U 1 1 60352AE3
 P 3550 7950
 AR Path="/60352AE3" Ref="C?"  Part="1" 
@@ -425,7 +425,7 @@ F 3 "~" H 4850 6900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ET_OPAMP_STD:OPA2344EA U?
+L EH-900-rescue:OPA2344EA-ET_OPAMP_STD U?
 U 3 1 60363FCD
 P 3250 9250
 AR Path="/60363FCD" Ref="U?"  Part="3" 
@@ -500,7 +500,7 @@ $EndComp
 Wire Wire Line
 	2700 9400 2700 9550
 $Comp
-L EH-900:ADS1115IDGS U?
+L EH-900-rescue:ADS1115IDGS-EH-900 U?
 U 1 1 60363FFC
 P 8350 7050
 AR Path="/60363FFC" Ref="U?"  Part="1" 
@@ -514,7 +514,7 @@ F 4 "VSSOP10/0.5mm" H 8350 7050 50  0001 C CNN "PackageName"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 603AAC6C
 P 5050 6450
 AR Path="/603AAC6C" Ref="R?"  Part="1" 
@@ -532,7 +532,7 @@ $EndComp
 Wire Wire Line
 	5200 6450 5350 6450
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 603B75DB
 P 5050 7550
 AR Path="/603B75DB" Ref="R?"  Part="1" 
@@ -555,7 +555,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 6350 6100 6350
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 603CA6C9
 P 7350 7950
 AR Path="/603CA6C9" Ref="R?"  Part="1" 
@@ -584,7 +584,7 @@ F 3 "" H 7350 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 603D290A
 P 7800 7950
 AR Path="/603D290A" Ref="R?"  Part="1" 
@@ -613,7 +613,7 @@ F 3 "" H 7800 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 603E8DE1
 P 7350 6200
 AR Path="/603E8DE1" Ref="R?"  Part="1" 
@@ -629,7 +629,7 @@ F 6 "SMD" H 7350 6200 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 603E9FB0
 P 7800 6200
 AR Path="/603E9FB0" Ref="R?"  Part="1" 
@@ -670,7 +670,7 @@ Wire Wire Line
 	7350 6350 7350 7150
 Connection ~ 7350 7150
 $Comp
-L EH-900:TPS79933DDC U404
+L EH-900-rescue:TPS79933DDC-EH-900 U404
 U 1 1 603F8188
 P 8450 9150
 F 0 "U404" H 8450 9420 51  0000 C CNN
@@ -683,7 +683,7 @@ F 5 "SOT23-5/0.95mm" H 8450 9150 50  0001 C CNN "PackageName"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:Q_NMOS_DGS Q?
+L EH-900-rescue:Q_NMOS_DGS-EH-900 Q?
 U 1 1 60404F93
 P 7700 3850
 AR Path="/602395A1/60404F93" Ref="Q?"  Part="1" 
@@ -709,7 +709,7 @@ F 4 "SSOP20/w=7.8mm/l=7.2mm/0.65mm" H 10750 4950 50  0001 C CNN "PackageName"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 60412A1A
 P 8250 3650
 AR Path="/60412A1A" Ref="R?"  Part="1" 
@@ -725,7 +725,7 @@ F 6 "SMD" H 8250 3650 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 60413CAA
 P 8000 4050
 AR Path="/60413CAA" Ref="R?"  Part="1" 
@@ -763,7 +763,7 @@ Connection ~ 10800 2450
 Wire Wire Line
 	10800 3200 10800 3300
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 60434D35
 P 9150 2700
 AR Path="/60434D35" Ref="R?"  Part="1" 
@@ -779,7 +779,7 @@ F 6 "SMD" H 9150 2700 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 6043523C
 P 9150 3100
 AR Path="/6043523C" Ref="R?"  Part="1" 
@@ -854,7 +854,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 9150 7500 9150
 $Comp
-L EH-900:C C?
+L EH-900-rescue:C-EH-900 C?
 U 1 1 6046FBF2
 P 7900 9600
 AR Path="/6046FBF2" Ref="C?"  Part="1" 
@@ -871,7 +871,7 @@ F 7 "50V" H 7900 9600 50  0001 C CNN "Vr"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:C C?
+L EH-900-rescue:C-EH-900 C?
 U 1 1 60475422
 P 7500 9600
 AR Path="/60475422" Ref="C?"  Part="1" 
@@ -933,7 +933,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 9350 9000 9350
 $Comp
-L EH-900:CommonModeChork_1423 L402
+L EH-900-rescue:CommonModeChork_1423-EH-900 L402
 U 1 1 6049E620
 P 9750 9250
 F 0 "L402" H 9750 9531 50  0000 C CNN
@@ -944,7 +944,7 @@ F 3 "~" H 9750 9250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L EH-900:CommonModeChork_1423 L401
+L EH-900-rescue:CommonModeChork_1423-EH-900 L401
 U 1 1 604A0EDE
 P 9150 1750
 F 0 "L401" H 9150 2031 50  0000 C CNN
@@ -980,7 +980,7 @@ Text Label 10700 9150 2    50   ~ 0
 Text Label 10700 9350 2    50   ~ 0
 -VCC
 $Comp
-L EH-900:DF11-8DP-2DSA CN402
+L EH-900-rescue:DF11-8DP-2DSA-EH-900 CN402
 U 1 1 604B279E
 P 14950 1650
 F 0 "CN402" H 15128 1666 50  0000 L CNN
@@ -1091,7 +1091,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 4550 11500 4400
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 605040F6
 P 11500 4250
 AR Path="/605040F6" Ref="R?"  Part="1" 
@@ -1231,7 +1231,7 @@ Text Label 13150 1350 0    50   ~ 0
 Text Label 13150 1800 0    50   ~ 0
 -VCC
 $Comp
-L EH-900:+3V3A #PWR0414
+L EH-900-rescue:+3V3A-EH-900 #PWR0414
 U 1 1 60569AA2
 P 7150 9150
 AR Path="/60569AA2" Ref="#PWR0414"  Part="1" 
@@ -1247,7 +1247,7 @@ Wire Wire Line
 	7150 9150 7500 9150
 Connection ~ 7500 9150
 $Comp
-L EH-900:+3V3A #PWR0419
+L EH-900-rescue:+3V3A-EH-900 #PWR0419
 U 1 1 605CAFD2
 P 8350 5950
 AR Path="/605CAFD2" Ref="#PWR0419"  Part="1" 
@@ -1263,7 +1263,7 @@ Wire Wire Line
 	8350 6300 8350 5950
 Connection ~ 8350 6300
 $Comp
-L EH-900:+3V3A #PWR0437
+L EH-900-rescue:+3V3A-EH-900 #PWR0437
 U 1 1 605E92F9
 P 10750 3950
 AR Path="/605E92F9" Ref="#PWR0437"  Part="1" 
@@ -1312,7 +1312,7 @@ SDA_MU
 Wire Wire Line
 	11200 3000 11250 3000
 $Comp
-L EH-900:+3V3A #PWR0441
+L EH-900-rescue:+3V3A-EH-900 #PWR0441
 U 1 1 6067C130
 P 11500 3950
 AR Path="/6067C130" Ref="#PWR0441"  Part="1" 
@@ -1325,7 +1325,7 @@ F 3 "" H 11500 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 6067CEC2
 P 12350 7050
 AR Path="/6067CEC2" Ref="R?"  Part="1" 
@@ -1343,7 +1343,7 @@ $EndComp
 Wire Wire Line
 	12500 7050 12600 7050
 $Comp
-L EH-900:DF11-4DP-2DSA CN401
+L EH-900-rescue:DF11-4DP-2DSA-EH-900 CN401
 U 1 1 606BD07E
 P 12850 7200
 F 0 "CN401" H 13028 7267 51  0000 L CNN
@@ -1391,7 +1391,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 5250 7350 6050
 $Comp
-L EH-900:GNDHV #PWR0425
+L EH-900-rescue:GNDHV-EH-900 #PWR0425
 U 1 1 603F544A
 P 5650 1950
 F 0 "#PWR0425" H 5650 1700 50  0001 C CNN
@@ -1402,7 +1402,7 @@ F 3 "" H 5650 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EH-900:C C?
+L EH-900-rescue:C-EH-900 C?
 U 1 1 604144BB
 P 8100 1800
 AR Path="/604144BB" Ref="C?"  Part="1" 
@@ -1419,7 +1419,7 @@ F 7 "25V" H 8100 1800 50  0001 C CNN "Vr"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:GNDHV #PWR0444
+L EH-900-rescue:GNDHV-EH-900 #PWR0444
 U 1 1 60415497
 P 8500 2100
 F 0 "#PWR0444" H 8500 1850 50  0001 C CNN
@@ -1464,7 +1464,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2450 9150 2550
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 6048B3B8
 P 7600 2650
 AR Path="/6048B3B8" Ref="R?"  Part="1" 
@@ -1495,7 +1495,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 2900 9150 2900
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 605448C4
 P 10050 2900
 AR Path="/605448C4" Ref="R?"  Part="1" 
@@ -1515,7 +1515,7 @@ Wire Wire Line
 Wire Wire Line
 	11250 3000 11250 3300
 $Comp
-L EH-900:GNDHV #PWR0446
+L EH-900-rescue:GNDHV-EH-900 #PWR0446
 U 1 1 605BBA86
 P 9150 3300
 F 0 "#PWR0446" H 9150 3050 50  0001 C CNN
@@ -1526,7 +1526,7 @@ F 3 "" H 9150 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:GNDHV #PWR0448
+L EH-900-rescue:GNDHV-EH-900 #PWR0448
 U 1 1 605D1FA7
 P 10800 3300
 F 0 "#PWR0448" H 10800 3050 50  0001 C CNN
@@ -1537,7 +1537,7 @@ F 3 "" H 10800 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:GNDHV #PWR0449
+L EH-900-rescue:GNDHV-EH-900 #PWR0449
 U 1 1 605D23ED
 P 11250 3300
 F 0 "#PWR0449" H 11250 3050 50  0001 C CNN
@@ -1552,7 +1552,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 2850 5750 4550
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 6066BFD0
 P 8450 4050
 AR Path="/6066BFD0" Ref="R?"  Part="1" 
@@ -1572,7 +1572,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4550 9200 4550
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 606CF225
 P 9200 4250
 AR Path="/606CF225" Ref="R?"  Part="1" 
@@ -1588,7 +1588,7 @@ F 6 "SMD" H 9200 4250 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:+3V3A #PWR0445
+L EH-900-rescue:+3V3A-EH-900 #PWR0445
 U 1 1 606CFFF3
 P 9200 4100
 AR Path="/606CFFF3" Ref="#PWR0445"  Part="1" 
@@ -1601,7 +1601,7 @@ F 3 "" H 9200 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:+3V3A #PWR0436
+L EH-900-rescue:+3V3A-EH-900 #PWR0436
 U 1 1 606D0B57
 P 8250 3400
 AR Path="/606D0B57" Ref="#PWR0436"  Part="1" 
@@ -1614,7 +1614,7 @@ F 3 "" H 8250 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:GNDHV #PWR0434
+L EH-900-rescue:GNDHV-EH-900 #PWR0434
 U 1 1 606D17FF
 P 7600 4200
 F 0 "#PWR0434" H 7600 3950 50  0001 C CNN
@@ -1634,7 +1634,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 1950 8100 1950
 $Comp
-L EH-900:GNDHV #PWR0429
+L EH-900-rescue:GNDHV-EH-900 #PWR0429
 U 1 1 6070988A
 P 7550 2250
 F 0 "#PWR0429" H 7550 2000 50  0001 C CNN
@@ -1707,7 +1707,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 7250 7800 7800
 $Comp
-L EH-900:MB85RC256V U?
+L EH-900-rescue:MB85RC256V-EH-900 U?
 U 1 1 6161FACD
 P 5800 9350
 AR Path="/6161FACD" Ref="U?"  Part="1" 
@@ -1722,7 +1722,7 @@ F 4 "FPT-8P-M02" H 5800 9350 50  0001 C CNN "PackageName"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:+3V3A #PWR?
+L EH-900-rescue:+3V3A-EH-900 #PWR?
 U 1 1 6161FAD3
 P 5800 8750
 AR Path="/6161FAD3" Ref="#PWR?"  Part="1" 
@@ -1736,7 +1736,7 @@ F 3 "" H 5800 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:C C?
+L EH-900-rescue:C-EH-900 C?
 U 1 1 6161FAE3
 P 5550 8950
 AR Path="/6161FAE3" Ref="C?"  Part="1" 
@@ -1783,7 +1783,7 @@ SCL_MU
 Text Label 6300 9350 0    50   ~ 0
 SDA_MU
 $Comp
-L EH-900:LT3922 U409
+L EH-900-rescue:LT3922-EH-900 U409
 U 1 1 603555A7
 P 6550 2250
 F 0 "U409" H 6550 3118 51  0000 C CNN
@@ -1794,7 +1794,7 @@ F 3 "https://strawberry-linux.com/pub/lt3922-manual.pdf" H 6550 2250 50  0001 C 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:HNC2-2.5P-6DS CN403
+L EH-900-rescue:HNC2-2.5P-6DS-EH-900 CN403
 U 1 1 607287F5
 P 1550 3550
 F 0 "CN403" H 1567 4057 42  0000 C CNN
@@ -1806,7 +1806,7 @@ F 4 "" H 1550 3550 50  0001 C CNN "Field4"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 603E0BEC
 P 2150 3950
 AR Path="/603E0BEC" Ref="R?"  Part="1" 
@@ -1822,7 +1822,7 @@ F 6 "DIP" H 2150 3950 50  0001 C CNN "Soldering"
 	0    1    1    0   
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 616996A6
 P 3300 1650
 AR Path="/616996A6" Ref="R?"  Part="1" 
@@ -1841,7 +1841,7 @@ F 9 "1%" V 3300 1650 50  0001 C CNN "Tolerance"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 6169A59F
 P 3500 1950
 AR Path="/6169A59F" Ref="R?"  Part="1" 
@@ -1857,7 +1857,7 @@ F 6 "SMD" H 3500 1950 50  0001 C CNN "Soldering"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 6169C71B
 P 4950 2600
 AR Path="/6169C71B" Ref="R?"  Part="1" 
@@ -1885,7 +1885,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1800 3100 1650
 $Comp
-L EH-900:R R?
+L EH-900-rescue:R-EH-900 R?
 U 1 1 6169B267
 P 3100 1950
 AR Path="/6169B267" Ref="R?"  Part="1" 
@@ -1944,7 +1944,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2550 4700 2550
 $Comp
-L EH-900:GNDHV #PWR0105
+L EH-900-rescue:GNDHV-EH-900 #PWR0105
 U 1 1 619F405A
 P 4200 2850
 F 0 "#PWR0105" H 4200 2600 50  0001 C CNN
@@ -1957,7 +1957,7 @@ $EndComp
 Wire Wire Line
 	4450 2000 4200 2000
 $Comp
-L EH-900:C C?
+L EH-900-rescue:C-EH-900 C?
 U 1 1 619C0E9A
 P 4600 2000
 AR Path="/619C0E9A" Ref="C?"  Part="1" 
@@ -1974,7 +1974,7 @@ F 7 "50V" H 4600 2000 50  0001 C CNN "Vr"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EH-900:GNDHV #PWR0106
+L EH-900-rescue:GNDHV-EH-900 #PWR0106
 U 1 1 615D4A66
 P 2400 3950
 F 0 "#PWR0106" H 2400 3700 50  0001 C CNN
@@ -1996,7 +1996,7 @@ Wire Wire Line
 	4950 2350 4950 2450
 Connection ~ 4950 2350
 $Comp
-L EH-900:GNDHV #PWR0107
+L EH-900-rescue:GNDHV-EH-900 #PWR0107
 U 1 1 6163E25A
 P 4950 2850
 F 0 "#PWR0107" H 4950 2600 50  0001 C CNN
@@ -2014,7 +2014,7 @@ Connection ~ 5700 1650
 Wire Wire Line
 	2750 1650 3100 1650
 $Comp
-L EH-900:DAC80501ZDGS U405
+L EH-900-rescue:DAC80501ZDGS-EH-900 U405
 U 1 1 615B1A52
 P 10100 6950
 F 0 "U405" H 11100 7215 50  0000 C CNN
@@ -2025,7 +2025,7 @@ F 3 "https://www.ti.com/jp/lit/ds/symlink/dac80501.pdf" H 10350 6950 60  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 615C75D7
 P 9950 6700
 AR Path="/615C75D7" Ref="R?"  Part="1" 
@@ -2045,7 +2045,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 7250 9950 6850
 $Comp
-L EH-900:+3V3A #PWR0108
+L EH-900-rescue:+3V3A-EH-900 #PWR0108
 U 1 1 615DC308
 P 9950 6500
 AR Path="/615DC308" Ref="#PWR0108"  Part="1" 
@@ -2075,7 +2075,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 7850 10450 7850
 $Comp
-L EH-900:R_Thick_1608_Pban R?
+L EH-900-rescue:R_Thick_1608_Pban-EH-900 R?
 U 1 1 616147C0
 P 10250 6700
 AR Path="/616147C0" Ref="R?"  Part="1" 
@@ -2093,7 +2093,7 @@ $EndComp
 Wire Wire Line
 	10250 6950 10250 6850
 $Comp
-L EH-900:+3V3A #PWR0111
+L EH-900-rescue:+3V3A-EH-900 #PWR0111
 U 1 1 61636B9D
 P 10250 6500
 AR Path="/61636B9D" Ref="#PWR0111"  Part="1" 
@@ -2122,7 +2122,7 @@ Vrefout
 Text Label 7600 2150 0    50   ~ 0
 EN
 $Comp
-L EH-900:MCP4725A0T U?
+L EH-900-rescue:MCP4725A0T-EH-900 U?
 U 1 1 60363FF6
 P 10800 2900
 AR Path="/60363FF6" Ref="U?"  Part="1" 
@@ -2136,7 +2136,7 @@ F 4 "SOT-23" H 10800 2900 50  0001 C CNN "PackageName"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:GNDHV #PWR0112
+L EH-900-rescue:GNDHV-EH-900 #PWR0112
 U 1 1 617C70BF
 P 10450 2450
 F 0 "#PWR0112" H 10450 2200 50  0001 C CNN
@@ -2186,7 +2186,7 @@ F 3 "" H 5400 8950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EH-900:1SS D403
+L EH-900-rescue:1SS-EH-900 D403
 U 1 1 6175BE94
 P 12000 6400
 F 0 "D403" H 12000 6203 42  0000 C CNN
@@ -2216,7 +2216,7 @@ F 3 "" H 12250 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EH-900:+3V3A #PWR0142
+L EH-900-rescue:+3V3A-EH-900 #PWR0142
 U 1 1 6179E9DE
 P 11750 6400
 AR Path="/6179E9DE" Ref="#PWR0142"  Part="1" 
@@ -2262,7 +2262,7 @@ Text Notes 10750 8150 0    79   ~ 0
 Text Notes 8400 7750 0    79   ~ 0
 [I2C Address: 0x48]
 $Comp
-L EH-900:+3V3A #PWR0433
+L EH-900-rescue:+3V3A-EH-900 #PWR0433
 U 1 1 605E9BE4
 P 10800 2350
 AR Path="/605E9BE4" Ref="#PWR0433"  Part="1" 
@@ -2295,7 +2295,7 @@ Connection ~ 10200 7850
 Wire Wire Line
 	10450 7550 10200 7550
 $Comp
-L EH-900:+3V3A #PWR?
+L EH-900-rescue:+3V3A-EH-900 #PWR?
 U 1 1 62203624
 P 10200 7550
 AR Path="/62203624" Ref="#PWR?"  Part="1" 

@@ -24,3 +24,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Ignore following folders
+EH-900-backups/
+PCB外形/

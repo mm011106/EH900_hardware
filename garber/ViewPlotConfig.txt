@@ -1,7 +1,0 @@
-C:\Users\miyam\Box\KiCAD\project\EH-900\garber\EH-900-Edge_Cuts.gm1
-C:\Users\miyam\Box\KiCAD\project\EH-900\garber\EH-900.drl
-C:\Users\miyam\Box\KiCAD\project\EH-900\garber\EH-900-B_Cu.gbl
-C:\Users\miyam\Box\KiCAD\project\EH-900\garber\EH-900-B_Mask.gbs
-C:\Users\miyam\Box\KiCAD\project\EH-900\garber\EH-900-F_Cu.gtl
-C:\Users\miyam\Box\KiCAD\project\EH-900\garber\EH-900-F_Mask.gts
-C:\Users\miyam\Box\KiCAD\project\EH-900\garber\EH-900-F_SilkS.gto

@@ -116,7 +116,7 @@ $EndComp
 Text Notes 6550 3300 0    100  ~ 0
 Meas - CPU
 $Comp
-L EH-900:BindingPost J112
+L EH-900-rescue:BindingPost-EH-900 J112
 U 1 1 6174FB0F
 P 11100 4850
 F 0 "J112" H 11073 5067 50  0000 C CNN
@@ -127,7 +127,7 @@ F 3 "~" H 11100 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:BindingPost J113
+L EH-900-rescue:BindingPost-EH-900 J113
 U 1 1 6175224D
 P 11100 5300
 F 0 "J113" H 11073 5517 50  0000 C CNN
@@ -138,7 +138,7 @@ F 3 "~" H 11100 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:BindingPost J114
+L EH-900-rescue:BindingPost-EH-900 J114
 U 1 1 6175329C
 P 11100 6000
 F 0 "J114" H 11073 6217 50  0000 C CNN
@@ -149,7 +149,7 @@ F 3 "~" H 11100 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EH-900:SW_DPDT SW101
+L EH-900-rescue:SW_DPDT-EH-900 SW101
 U 1 1 61756DB9
 P 3850 4850
 F 0 "SW101" H 3850 5335 50  0000 C CNN
@@ -179,7 +179,7 @@ Vmon
 Text Notes 11400 6050 0    100  ~ 0
 FG\n
 $Comp
-L EH-900:ER03-R5F J110
+L EH-900-rescue:ER03-R5F-EH-900 J110
 U 1 1 6176F25D
 P 11050 3750
 F 0 "J110" H 11000 3450 50  0000 L CNN
@@ -301,7 +301,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 5650 6450 5650
 $Comp
-L EH-900:A3AA-90K1-00EY SW102
+L EH-900-rescue:A3AA-90K1-00EY-EH-900 SW102
 U 1 1 617B6A2D
 P 7500 5550
 F 0 "SW102" H 7500 6050 50  0000 C CNN
@@ -449,7 +449,7 @@ Text Notes 10500 6000 0    50   ~ 0
 Text Notes 10300 4400 0    50   ~ 0
 UL1015 AWG24
 $Comp
-L EH-900:CrimpTerminal_Ring J116
+L EH-900-rescue:CrimpTerminal_Ring-EH-900 J116
 U 1 1 616B6995
 P 9900 6000
 F 0 "J116" H 10000 6100 50  0000 C CNN
@@ -460,7 +460,7 @@ F 3 "http://www.nichifu.co.jp/j/catalog/ebook/#target/page_no=45" H 9900 6000 50
 	-1   0    0    -1  
 $EndComp
 $Comp
-L EH-900:CrimpTerminal_Ring J115
+L EH-900-rescue:CrimpTerminal_Ring-EH-900 J115
 U 1 1 616B93FD
 P 9900 4250
 F 0 "J115" H 10000 4350 50  0000 C CNN
